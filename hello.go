@@ -4,10 +4,12 @@ import "fmt"
 
 func main(){
 	keterangan :="lulus"
-	nilai:= 100
+	nilai:= 0
 
 	if nilai<=10 {
 		keterangan = "tidak lulus"
+		fmt.Println(keterangan + " omaigatt!!")
+	} else{
+		fmt.Println(keterangan + " yeyy!!")
 	}
-	fmt.Println(keterangan + " yeyy!!")
 }
